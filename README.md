@@ -2,7 +2,7 @@
 
 # global style.scss
 
-
+```
 /**
 My Dialog Model 
 */
@@ -100,13 +100,13 @@ My Dialog Model
     margin: 0 0 15px;
   }
 }
-
+```
 
 
 
 # in your page component  html add this content
 
-
+```
   <div id="open-modal" class="modal-window" [ngStyle]="modal_style">
     <div class="modal-content" style="width:600px;">
       <a title="Close" class="modal-close" (click)="editDialog(false)">
@@ -142,11 +142,11 @@ My Dialog Model
       </div>
     </div>
   </div>
-
+```
 
 # In Component ts 
 
-
+```
   modelv = false;
   modal_style = {
     visibility: 'hidden',
@@ -168,7 +168,7 @@ My Dialog Model
       }
     }
   }
-
+```
 
 
 dialog component using only angular and css 
